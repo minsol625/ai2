@@ -44,7 +44,16 @@ def display_right_content(labels):
     # 1st Row - Images based on labels
     for i, label in enumerate(labels[:3]):
         with cols[i]:
-            st.image(f"https://via.placeholder.com/150?text={label}", caption=f"이미지: {label}", use_column_width=True)
+            st.image(f"https://i.ibb.co/yfgQyTw/i1889310591.jpg
+https://i.ibb.co/TcTG84m/ayi-IBk5l78oga-LRNzp5oz6a1-Bv-QQ4-Nm4-KGQziia-WY0ej-RCnk-JUUTf-q-N4-ZI-Sz0k-LMCae-Rhwem-Lc-GOk-LByr.webp
+https://i.ibb.co/HV4Vbjm/Xb-h8-Xr-Mh-Dx6-Pxoh-HOt2-SZPAg-UIml-WJb5keee-YKGEe5q-GQi5-r-X9m-ZRWib-MAADb-ABqnz-EWSvos96m-Hcv-Ufn.webp
+https://i.ibb.co/Tq2RCyW/So-MFwg-Gnb-SMmxzo-Anuha-Koal-USZZd40v-Hyep-Kq-Hx-Hv-Ac-IP-Zkl-FHXC4-KUKf-RNOPdf-OWXe-Dx-VSa-ABFd-Qc.webp
+https://i.ibb.co/MnTzsVB/maxresdefault.jpg
+https://i.ibb.co/ssJvJnn/298975135-1-1730980461-w360.webp
+https://i.ibb.co/wLKCLGG/001.jpg
+https://i.ibb.co/VSCNTkW/529280-493959-4426.jpg
+https://i.ibb.co/0fH3zzH/20211103162023-7264w.jpg
+https://i.ibb.co/hgfFvpP/image.jpg?text={label}", caption=f"이미지: {label}", use_column_width=True)
 
     # 2nd Row - YouTube Videos based on labels
     for i, label in enumerate(labels[:3]):
